@@ -10,7 +10,7 @@ const routes=express.Router();
 
 
 routes.get("/",async(req,res)=>{
-    const details=await Detail.findOne({"_id":"664ef4782f20578a94817a38"})
+    const details=await Detail.findOne({"_id":"664f88a4e1d00e8ff85da2b1"})
     res.render("index",{
         details:details,
     });
