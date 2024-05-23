@@ -27,7 +27,7 @@ app.set("views","views");
 hbs.registerPartials("views/partials");
 
 //db connections
- let db=mongoose.connect("mongodb://localhost:27017/portfolio").then(success=>console.log("db connected"));
+ let db=mongoose.connect("mongodb+srv://12215092:9813094435@mongocloud.hjva6l0.mongodb.net/portfolio").then(success=>console.log("db connected"))
 // detail.create({
 //         siteName:"Mahawal's Domain",
 //         siteAuthor:"Aanand Mahawal",
