@@ -5,4 +5,4 @@ const Contact=mongoose.Schema({
     comment:String,
 });
 
-module.exports = mongoose.model("contact",Contact);
+module.exports = mongoose.model("contacts",Contact);
